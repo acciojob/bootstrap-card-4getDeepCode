@@ -1,16 +1,76 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Card Deck</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+<body class="bg-light">
+
+<div class="container mt-5">
+
+  <div class="card-deck">
+
+    <!-- Card 1 -->
+    <div class="card">
+      <div class="card-header bg-primary text-white">
+        Welcome to Sync5
+      </div>
+
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="Sync Image">
+
+      <div class="card-body">
+        <h5 class="card-title">New Features</h5>
+
+        <p class="card-text">
+          Mobile and Tablet support
+        </p>
+
+        <p class="card-text">
+          With this new update you will be able to sync your work across a large number of platforms.
+        </p>
+
+        <button class="btn btn-primary">Read more</button>
+      </div>
+    </div>
+
+
+    <!-- Card 2 -->
+    <div class="card">
+      <div class="card-header bg-danger text-white">
+        Alert
+      </div>
+
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Alert Image">
+
+      <div class="card-body">
+        <h5 class="card-title">Node Dead</h5>
+
+        <p class="card-text">
+          Node 5 (east-us) is offline for the last 12 days.
+        </p>
+
+        <p class="card-text">
+          President under Pressure
+        </p>
+
+        <p class="card-text">
+          The US president is under pressure to respond to a widespread cyber-attack linked to China.
+        </p>
+
+        <p class="text-muted">Last updated 12 mins ago</p>
+
+        <button class="btn btn-primary">Read more</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>
 
 </body>
-
 </html>
